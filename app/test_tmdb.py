@@ -1,6 +1,7 @@
+import os
 import requests
 
-API_KEY = 'a311e6a736ad8ed030dde84fbb5fc5cc'
+API_KEY = os.getenv('TMDB_API_KEY')
 base_url = 'https://api.themoviedb.org/3'
 
 # Função para pegar filmes populares
