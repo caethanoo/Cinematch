@@ -1,0 +1,10 @@
+# Ignorar arquivos do Python compilados
+__pycache__/
+*.pyc
+
+# Ignorar ambiente virtual
+venv/
+.env
+
+# Ignorar banco SQLite local
+*.db

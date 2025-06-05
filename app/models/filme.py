@@ -1,0 +1,13 @@
+from sqlalchemy import Column, Integer, String
+from app.database import Base
+
+class Filme(Base):
+    __tablename__ = "filmes"
+
+    id = Column(Integer, primary_key=True, index=True)
+    tmdb_id = Column(Integer, unique=True, nullable=False)
+    titulo = Column(String, nullable=False)
+    genero = Column(String, nullable=True)
+    ano = Column(Integer, nullable=True)
+    descricao = Column(String, nullable=True)
+    poster_url = Column(String, nullable=True)
