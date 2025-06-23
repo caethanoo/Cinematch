@@ -33,7 +33,7 @@ Para executar o backend localmente, siga os passos abaixo:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/SEU-USUARIO/cinematch.git](https://github.com/SEU-USUARIO/cinematch.git)
+    git clone https://github.com/caethanoo/Cinematch
     cd cinematch
     ```
 
@@ -76,7 +76,7 @@ Para executar o backend localmente, siga os passos abaixo:
 
 ## ✍️ Autores
 
-- Brennda Caethano - ([@caethanoo](https://github.com/caethanoo))
+- Brennda Caethano - ([@caethanoo])((https://github.com/caethanoo))
 - 
 ---
 > Projeto desenvolvido como parte de um bootcamp de aprendizado intensivo.
