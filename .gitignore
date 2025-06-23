@@ -1,4 +1,9 @@
+# Arquivos de ambiente - NUNCA ENVIAR PARA O GIT
+.env
+
 # Ambiente Virtual
 venv/
 __pycache__/
-.db
+
+# Arquivos de banco de dados SQLite
+*.db
